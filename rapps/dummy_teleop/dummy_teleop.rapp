@@ -1,0 +1,5 @@
+display:          Dummy
+description:      Dummy teleop to test
+compatibility:    rocon:/pc
+launch:           dummy.launch
+parent_name:      rocon_apps/video_teleop

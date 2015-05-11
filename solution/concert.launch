@@ -1,0 +1,8 @@
+<launch>
+  <include file="$(find concert_master)/launch/concert_master.launch">
+    <arg name="concert_name" value="test concert"/>
+    <arg name="services" value="test_concert/test.services"/>
+    <arg name="conductor_auto_invite" value="true"/>
+    <arg name="default_auto_enable_services" value="all"/>
+  </include>
+</launch>
